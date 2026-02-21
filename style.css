@@ -23,11 +23,13 @@ body {
 
 /* NAVBAR */
 .navbar {
-  width: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 110px;
+ 
+ 
+  margin: 0 120px;
+  padding: 0;
   height: 90px;
 }
 
@@ -38,7 +40,11 @@ body {
   letter-spacing: 1px;
 }
 .logo img {
-  width: 290px;
+  height: 48px;
+  width: auto;
+  max-width: 220px;
+  display: block;
+  object-fit: contain;
 }
 .nav-right {
   display: flex;
